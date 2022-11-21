@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="X-UA-Compatible">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>MyFirstGuitar</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <!-- #region HEADER-->
+        <header class="header">
+            <div class="wrapper">
+                <a href="#initial" class="logo"></a>
+                <nav>
+                    <a href="#chapter1" class="nav_item">As it began</a>
+                    <a href="#chapter2" class="nav_item">First steps</a>
+                    <a href="#chapter3" class="nav_item">Learning skills</a>
+                    <a href="#chapter4" class="nav_item">Synopsis</a>
+                </nav>
+            </div>
+        </header>
+        <!-- #endregion -->
+
+        <!-- #region INTRO IMG & TITLE-->
+        <div class="intro" id="initial">
+            <div class="intro_overlay">
+                <div class="wrapper">
+                    <div class="intro_title">My guitar journey.<br>The endless journey</div>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion -->
+
+        <!-- #region CHAPTER 1 HEADER-->
+        <div class="chapterHeader" id="chapter1">
+            <div class="wrapper">
+                <div class="chapterHeader__content">
+                    <img src="img/FindMeSomebodyToLove.png" class="chapterHeader_img">
+                    <div class="chapterHeader__text">
+                        <div class="chapterHeader__title">Chapter 1</div>
+                        <div class="chapterHeader__subt">"As it began"</div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- #endregion -->
+       
+        <!-- #region CHAPTER 1-->
+
+        <!--calendar & info-->
+        <div class="info">
+            <div class="wrapper">
+                <div class="borderTop">
+                    <img src="img/calendar.svg" class="calendarImg">
+                    <div class="info_frame">
+                        It all started in the winter of 2018 after the release of “Bohemian Rhapsody”.  I must say that up to that time I was not a music lover and was not particularly interested in the world of music. Little did I suspect how much this movie would change my life...
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--slider-->
+        <div class="slider" id="slider">
+            <div class="wrapper">
+                <div class="selector">
+                    <span class="dot active" onclick="SwapTo1Slide()" id="dot1"></span>
+                    <span class="dot" onclick="SwapTo2Slide()" id="dot2"></span>
+                    <span class="dot" onclick="SwapTo3Slide()" id="dot3"></span>
+                </div>
+            </div>
+        </div>
+        
+        <!--slides & info-->
+        <div class="info">
+            <div class="wrapper800">
+                <div class="slides">
+                    <img class="info_img" src="img/Concert.svg">
+                    <img class="info_img" src="img/BMay.svg">
+                    <img class="info_img hidden" src="img/1980.svg">
+                </div>
+                <div class="info_frame straight">I was largely inspired to buy the guitar by the lead guitarist of the band, Brian Harold May. His delivery of “Love of my life” in Tokyo, 2014, deeply shocked me. Personally, I also learned this guitar part and played it countless times.</div>
+                <div class="info_frame straight">Even though I listened to Queen before the movie, after watching it I became a real fan. I've listened to all of the band's albums, many of the songs are on my list of favorite pieces of music, and the band itself has become one of my most revered.</div>
+            </div>
+        </div>
+
+        <!--#endregion-->
+
+        <!-- #region CHAPTER 2 HEADER-->
+        <div class="chapterHeader chapterHeader2_3" id="chapter2">
+            <div class="wrapper">
+                <div class="chapterHeader__content">
+                    <img src="img/WeWillRockYou.png" class="chapterHeader_img">
+                    <div class="chapterHeader__text">
+                        <div class="chapterHeader__title">Chapter 2</div>
+                        <div class="chapterHeader__subt">"First steps"</div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- #endregion -->
+
+        <!-- #region CHAPTER 2-->
+
+        <!--calendar & info-->
+        <div class="info" style="margin-top: 20px;">
+            <div class="wrapper">
+                <div class="borderTop">
+                    <img src="img/calendar2019.svg" class="calendarImg">
+                    <div class="info_frame">
+                        By June 2019, I had saved up my money and headed to the store. By then I had studied a lot of information in the context of buying my first guitar and therefore I want to share my experience and give some advice
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--intro img-->
+        <div class="intro buying">
+            <div class="intro_overlay buying">
+                <div class="wrapper">
+                    <div class="intro_title buying">
+                        <div class="horizontalLine">
+                            BUYING A GUITAR IS A VERY RESPONSIBLE AND IMPORTANT STEP,  AND THERE ARE SOME KEY MOMENTS YOU NEED TO CONSIDER
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--roadmap-->
+        <div class="info">
+            <div class="wrapper">
+                <div class="wrapper800">
+                    <div class="roadmap">
+                        <img class="star" src="img/star1.svg" onclick="myFunction()">
+                        Perhaps the first and most important step is to make sure that you really need a guitar. Of course, you won't know for sure until you try it, but it's definitely worth delving into the subject, weighing the pros and cons before going to the store.
+                        <img class="star" src="img/star2.svg">
+                        If you decide to buy a guitar - you need to decide on the price policy. It makes no sense to take an expensive first guitar, but you should not stop at the cheapest samples. The Internet is full of information about manufacturers.
+                        <img class="star" src="img/star3.svg">
+                        Choose a guitar according to the criteria prepared in advance, check its integrity, the distance between the strings, the uprightness of the neck, and of course the sound.
+                        <img class="star" src="img/star4.svg">
+                        Take care of your guitar, treat it like a live one, don't be afraid of it. You'll tear more than one string, you'll make mistakes, it'll be hard, but all this is nothing compared to the joy the instrument will give you over the years. And of course, practice. Every day. As much as you can.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion -->  
+
+        <!-- #region CHAPTER 3 HEADER-->
+        <div class="chapterHeader chapterHeader2_3" id="chapter3">
+            <div class="wrapper">
+                <div class="chapterHeader__content">
+                    <img src="img/WeAreTheChampoins.png" class="chapterHeader_img">
+                    <div class="chapterHeader__text">
+                        <div class="chapterHeader__title">Chapter 3</div>
+                        <div class="chapterHeader__subt">"Learning skills"</div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- #endregion -->
+
+        <!--#region CHAPTER 3-->
+        <div class="info">
+            <div class="wrapper800">
+                <img class="skillImg">
+            </div>
+        </div>  
+
+        <div class="gallery">
+            <div class="wrapper">
+                <div class="cover">
+                    <div class="desc_left">Progress comes at the cost of many tens and hundreds of hours of challenges to yourself and overcoming obstacles</div>
+                    <div class="desc_right">Few feelings compare to one of conquering a new peak of your skill, performing a successful technical action, simply enjoying the music</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro accomp">
+            <div class="intro_overlay accomp">
+                <div class="wrapper">
+                    <div class="intro_title accomp">
+                        <div class="verticalLine">
+                            Accompaniment
+                        </div>
+                        <div class="intro_subt">
+                            One of the great joys of the guitar for me is accompanying myself. Singing with the guitar is also a skill that requires practice and attention.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--#endregion-->
+
+        <!-- #region CHAPTER 4 HEADER-->
+        <div class="chapterHeader" id="chapter4">
+            <div class="wrapper">
+                <div class="chapterHeader__content">
+                    <img src="img/MamaMiaLetMeGo.png" class="chapterHeader_img">
+                    <div class="chapterHeader__text">
+                        <div class="chapterHeader__title">Chapter 4</div>
+                        <div class="chapterHeader__subt">"Synopsis"</div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- #endregion -->        
+
+       <!-- #region CHAPTER 4-->
+       <div class="info">
+            <div class="wrapper">
+                <div class="synopsis">
+                    <img class="synopsis_img" src="img/syn_left.svg">
+                    <div class="synopsis_bg">
+                        <div class="synopsis_text">
+                            I am infinitely happy that in 9th grade I got the idea to buy a guitar. The guitar became not just my hobby, I really fell in love with it, it became something irreplaceable in my life. Guitar, like other musical instruments, develops brain, imagination, motor hand, sense of rhythm, musical ear, perception of the world and many other things. It gives endless amounts of pleasure and joy. This is the journey that never ends and you never want it to. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <div class="flex">
+            <div class="quote" style="flex:1;">
+                <div class="wrapper">
+                    <img class="quote_img" src="img/iMay.svg">
+                    <div class="quote_text">
+                        “The guitar has a kind of grit and excitement possesed by nothing else”
+                        <br>- Brian May
+                    </div>
+                </div>
+            </div>
+
+            <div class="quote">
+                <div class="wrapper">
+                    <img class="quote_img" src="img/Elton.svg">
+                    <div class="quote_text">
+                        “I've always wanted to smash a guitar over someone's head. You just can't do that with a piano.”
+                        <br>- Elton John
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #endregion -->
+
+        <!-- #region FOOTER -->
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer_content">
+                    <div class="footer_left">
+                        <a href="#initial" class="logo footer"></a>    
+                        <div class="footer_menu">
+                            <a href="#chapter1" class="footer_menu_link">As it began </a><br>
+                            <a href="#chapter2" class="footer_menu_link">First steps </a> <br>
+                            <a href="#chapter3" class="footer_menu_link">Learning skills </a> <br>
+                            <a href="#chapter4" class="footer_menu_link">Synopsis </a> <br>
+                        </div>
+                    </div>
+                    <div class="footer_right">
+                        <div class="footer_right_top">
+                            CONTACT ME<br><br>
+                            monastyrovgleb@gmail.com<br>
+                            Monastyrov.H.V@nmu.one<br><br>
+                            +380 95 616 24 28
+                        </div>
+                        <div class="footer_right_bottom">
+                            <pre>2022      &#169; My First Guitar</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- #endregion -->
+       
+        <!--#region scripts-->
+        <script>
+            function SwapTo1Slide()
+            {
+                var elCurrent = document.getElementById("dot1");
+                var slider = document.getElementById("slider");
+                var elElse = document.getElementById("dot2");
+                var elElse2 = document.getElementById("dot3");
+
+                slider.style.backgroundImage = "url('img/1.svg')";
+                elCurrent.style.backgroundColor = "#311A52";
+
+                elElse.style.backgroundColor = "#d9d9d9";
+                elElse2.style.backgroundColor = "#d9d9d9";
+            }
+        </script>    
+        <script>
+            function SwapTo2Slide()
+            {
+                var elCurrent = document.getElementById("dot2");
+                var elElse = document.getElementById("dot1");
+                var elElse2 = document.getElementById("dot3");
+                var slider = document.getElementById("slider");
+
+                slider.style.backgroundImage = "url('img/2.svg')";
+                elCurrent.style.backgroundColor = "#311A52";
+
+                elElse.style.backgroundColor = "#d9d9d9";
+                elElse2.style.backgroundColor = "#d9d9d9";
+            }
+        </script>
+        <script>
+            function SwapTo3Slide()
+            {
+                var elCurrent = document.getElementById("dot3");
+                var slider = document.getElementById("slider");
+                var elElse = document.getElementById("dot1");
+                var elElse2 = document.getElementById("dot2");
+
+                slider.style.backgroundImage = "url('img/3.svg')";
+                elCurrent.style.backgroundColor = "#311A52";
+
+                elElse.style.backgroundColor = "#d9d9d9";
+                elElse2.style.backgroundColor = "#d9d9d9";
+            }
+        </script>   
+        <!-- #endregion --> 
+    </body>
+</html>
